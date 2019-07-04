@@ -1,6 +1,6 @@
 def my_select(collection)
   new_collection
   
-  collection.select {|n| yield(new_collection)}
+  new_collection.select {|n| yield(collection)}
  # your code here!
 end
